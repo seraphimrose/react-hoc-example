@@ -1,0 +1,20 @@
+@import '~antd/dist/antd.css';
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 10%;
+    margin-bottom: 10px;
+}
+
+.err-msg {
+    color: red;
+    margin-left: 10px;
+}
