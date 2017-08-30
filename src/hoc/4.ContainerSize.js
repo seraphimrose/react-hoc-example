@@ -40,7 +40,7 @@ export default ({
 
         onResize() {
             if(this.updateTimer) {
-                clearTimeout(this._updateTimer);
+                clearTimeout(this.updateTimer);
             }
 
             this.updateTimer = setTimeout(() => this.update(), 16);
